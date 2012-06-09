@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  ISBN10: MyString
+  authors: MyString
+  pages: MyString
+  weight: MyString
+  user: 
+
+two:
+  title: MyString
+  ISBN10: MyString
+  authors: MyString
+  pages: MyString
+  weight: MyString
+  user: 

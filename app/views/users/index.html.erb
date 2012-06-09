@@ -1,0 +1,28 @@
+<div id="Heading">
+        <title>Book Browser</title>
+        <h1>Book Browser Application</h1>
+        <p>The Application lets you browse for books and also like some of them. Do check it out</p>
+</div>
+
+<br></br>
+
+<table align="center">
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <td><%= link_to 'LOGIN', new_user_path %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  
+  <% @users.each do |user| %>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= link_to 'Show', user %></td>
+    <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
